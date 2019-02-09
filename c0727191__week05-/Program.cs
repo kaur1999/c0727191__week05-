@@ -45,7 +45,37 @@ namespace c0727191__week05_
 
     {
 
+        public Department(string dept_name)
+
+        {
+
+            DepartmentDescription = dept_name;
+
+        }
+
         public Department aDepartment;
+
+        public string DepartmentDescription;
+
+    }
+
+
+
+    class DepartmentStore
+
+    {
+
+        public void InitializeDepartments()
+
+        {
+
+            Department Kitchenware = new Department("Kitchenware");
+
+            Department Books = new Department("Books");
+
+
+
+        }
 
 
 
